@@ -2,7 +2,7 @@
 
 After installing the appmenu-qt5 platform theme (to the qt5/plugins/platformthemes/ plugin directory) for the appmenu support to work
 you need to force Qt5 to use this platform theme plugin. This can be done by setting the QT_QPA_PLATFORMTHEME environment variable to
-appmenu-qt5, e.g.: QT_QPA_PLATFORMTHEME=appmenu-qt5
+appmenu-qt5, e.g.: `QT_QPA_PLATFORMTHEME=appmenu-qt5`
 
 Now every Qt5 application that is started in the environment will export its menu through DBus.
 
